@@ -6,11 +6,8 @@ Nous utiliserons Anaconda, qui permet de préinstaller tous les modules de data 
 
   -Dans votre fichier .zshrc (ou alternative), ajoutez la ligne suivante:
 
-    ```
     export PATH=”/sgoinfre/goinfre/Perso/42-ai/anaconda3/bin:$PATH”
-    ```
+
   -Réinitialisez votre terminal
 
-    ```
     source ~/.zshrc
-    ```
