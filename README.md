@@ -2,11 +2,27 @@
 
 ## Installation de python et de ses modules
 
-Nous utiliserons Anaconda, qui permet de préinstaller tous les modules de data science de Python. Pour gagner du temps, Anaconda est déjà dans le dossier de 42-ai sur le sgoinfre. Vous devez juste l’ajouter dans votre PATH. Pour ce faire:
+Nous utiliserons Anaconda, qui permet de préinstaller tous les modules de data science de Python. Vous devrez installer Anaconda le sgoinfre. Pour ce faire:
+
+  -Allez dans le sgoinfre et créez un dossier au nom de votre login, avec le chmod en 700:
+
+    cd /sgoinfre/goinfre/Perso
+    mkdir VOTRE_LOGIN
+    chmod 700 VOTRE_LOGIN
+
+  -Allez dans le dossier créé et téléchargez-y Anaconda
+
+    cd VOTRE_LOGIN
+    curl -o anaconda3.sh https://repo.continuum.io/archive/Anaconda3-5.0.1-MacOSX-x86_64.sh
+    sh anaconda3.sh
+  
+  -ATTENTION!! Dans le script d'installation, il faut indiquer le chemin d'installation approprié
+
+    /sgoinfre/goinfre/Perso/VOTRE_LOGIN/anaconda3
 
   -Dans votre fichier .zshrc (ou alternative), ajoutez la ligne suivante:
 
-    export PATH="/sgoinfre/goinfre/Perso/42-ai/anaconda3/bin:$PATH"
+    export PATH="/sgoinfre/goinfre/Perso/VOTRE_LOGIN/anaconda3/bin:$PATH"
 
   -Réinitialisez votre terminal
 
@@ -15,4 +31,4 @@ Nous utiliserons Anaconda, qui permet de préinstaller tous les modules de data 
   -Vérifiez que l'opération a bien été effectuée
 
     $> which python
-    /sgoinfre/goinfre/Perso/42-ai/anaconda3/bin/python
+    /sgoinfre/goinfre/Perso/VOTRE_LOGIN/anaconda3/bin/python
