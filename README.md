@@ -16,7 +16,7 @@ Nous utiliserons Anaconda, qui permet de préinstaller tous les modules de data 
     curl -o anaconda3.sh https://repo.continuum.io/archive/Anaconda3-5.0.1-MacOSX-x86_64.sh
     sh anaconda3.sh
   
-  -ATTENTION!! Dans le script d'installation, il faut indiquer le chemin d'installation approprié
+  -ATTENTION!! Durant l'exécution du script d'installation, il faut indiquer le chemin d'installation approprié
 
     /sgoinfre/goinfre/Perso/VOTRE_LOGIN/anaconda3
 
